@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>spring6</artifactId>
+    <groupId>pr.iceworld.fernando</groupId>
+    <name>spring6</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <spring.version>6.0.7</spring.version>
+    </properties>
+
+    <modules>
+        <module>spring6-junit5</module>
+        <module>spring6-aop</module>
+        <module>spring6-aop-simple</module>
+        <module>spring6-kafka-producer</module>
+        <module>spring6-kafka-consumer</module>
+        <module>simulate-spring-ioc</module>
+        <module>spring6-lifecycle</module>
+    </modules>
+</project>
